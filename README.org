@@ -1,0 +1,13 @@
+* Cubix
+
+**Cubix** is a WIP Minecraft clone made with Zig, using Vulkan as the graphics API.
+
+* Installation
+
+If compiling from source, using GNU Guix is highly recommended. It functions as a tool for reproducible builds in the fashion of Nix. Running the build.sh script will simply build the project with the executable inside of "./bin".
+
+* Development Tools
+
+As stated in the Installation section, GNU Guix is highly recommended as a tool for building, and also for developing. If any dependencies are brought in or generally anything involved in building that are not covered by build.zig, it should be made within the relevant scheme files.
+
+As Guix is an invaluable tool in this project, Emacs is the recommended editor due to its integration.
