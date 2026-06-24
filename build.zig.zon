@@ -1,6 +1,16 @@
 .{
     .name = .Cubix,
     .version = "0.0.1",
+    .dependencies = .{
+        .vulkan = .{
+            .url = "git+https://github.com/Snektron/vulkan-zig#241d88f280ccf156cafd5008934e016081cbe2a2",
+            .hash = "vulkan-0.0.0-r7Ytx8t9AwDbdPvKCQU2qrevpeTvH9v4E9iSrnA46zZU",
+        },
+        .zglfw = .{
+            .url = "git+https://github.com/zig-gamedev/zglfw#51003c105d23db378bb59ce415a387b22f1b0892",
+            .hash = "zglfw-0.10.0-dev-zgVDNIy4IQDJNRy4jrP1As-SZxfJpuWhU1iJ-wBab_VD",
+        },
+    },
     .minimum_zig_version = "0.16.0",
     .paths = .{""},
     .fingerprint = 0x2422b384b8784443,

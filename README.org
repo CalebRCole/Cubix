@@ -1,6 +1,6 @@
 * Cubix
 
-**Cubix** is a WIP Minecraft clone made with Zig, using Vulkan as the graphics API.
+Cubix is a WIP Minecraft clone made with Zig, using Vulkan and GLFW.
 
 * Installation
 
